@@ -6,6 +6,7 @@ public class BaliseColor : MonoBehaviour {
 
     Material mat;
     public float validateTime;
+    public int actionID;
     private float actualValidateTime;
 
 	// Use this for initialization
@@ -15,20 +16,35 @@ public class BaliseColor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        actualValidateTime -= (Time.deltaTime / 3);
+        if(actualValidateTime <0)
+        {
+            actualValidateTime = 0;
+        }
+        UpdateColor();
+    }
+
+    public void onLook(float deltaTime)
+    {
+        actualValidateTime += deltaTime;
        
     }
 
-    public void uptadeColor(float deltaTime)
+    void UpdateColor()
     {
-        actualValidateTime += deltaTime;
         float green = (actualValidateTime / validateTime);
         float red = 1 - green;
 
         GetComponent<Renderer>().material.color = new Color(red, green, 0);
 
-        if(actualValidateTime >= validateTime)
+        if (actualValidateTime >= validateTime)
         {
             gameObject.SetActive(false);
+            ValidatedAction temp = gameObject.GetComponent<ValidatedAction>();
+            if(temp != null)
+            {
+                temp.Validated(actionID);
+            }
         }
     }
 }

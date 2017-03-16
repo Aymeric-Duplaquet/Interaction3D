@@ -20,7 +20,7 @@ public class BaliseScript : MonoBehaviour {
             BaliseColor bal = hit.transform.GetComponent<BaliseColor>();
             if (bal != null)
             {
-                bal.uptadeColor(Time.deltaTime);
+                bal.onLook(Time.deltaTime);
             }
            
         }
