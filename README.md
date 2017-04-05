@@ -1,1 +1,6 @@
 Interaction 3D et RV
+
+Question de William:
+Comment gèrer proprement la hauteur pour qu'elle s'appuit sur la route
+Comment géré l'orientation des voitures...
+C'est correct le dossier ressources? La doc dit de créé un dossier... mais ça dit que c'est une mauvaise pratique...

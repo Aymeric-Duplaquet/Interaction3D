@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BaliseColor : MonoBehaviour {
 
+	private int ratio=10;
     Material mat;
     public float validateTime;
     public int actionID;
@@ -32,7 +33,7 @@ public class BaliseColor : MonoBehaviour {
 
     void UpdateColor()
     {
-        float green = (actualValidateTime / validateTime);
+		float green = (actualValidateTime / validateTime * ratio);
         float red = 1 - green;
 
         GetComponent<Renderer>().material.color = new Color(red, green, 0);

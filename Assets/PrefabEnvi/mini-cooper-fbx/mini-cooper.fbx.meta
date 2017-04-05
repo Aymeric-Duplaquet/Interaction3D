@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 49bc3a504a3eb724d903398dd2cc1ebf
+timeCreated: 1491326095
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackLight
+    100002: Camera_Perspective52
+    100004: FillLight
+    100006: KeyLight
+    100008: LightPreset
+    100010: Mini
+    100012: Mini 1
+    100014: Mini 10
+    100016: Mini 11
+    100018: Mini 12
+    100020: Mini 13
+    100022: Mini 14
+    100024: Mini 15
+    100026: Mini 16
+    100028: Mini 17
+    100030: Mini 18
+    100032: Mini 19
+    100034: Mini 2
+    100036: Mini 20
+    100038: Mini 21
+    100040: Mini 22
+    100042: Mini 23
+    100044: Mini 24
+    100046: Mini 25
+    100048: Mini 26
+    100050: Mini 27
+    100052: Mini 28
+    100054: Mini 29
+    100056: Mini 3
+    100058: Mini 30
+    100060: Mini 31
+    100062: Mini 32
+    100064: Mini 33
+    100066: Mini 34
+    100068: Mini 35
+    100070: Mini 36
+    100072: Mini 37
+    100074: Mini 38
+    100076: Mini 39
+    100078: Mini 4
+    100080: Mini 40
+    100082: Mini 41
+    100084: Mini 42
+    100086: Mini 43
+    100088: Mini 44
+    100090: Mini 45
+    100092: Mini 46
+    100094: Mini 47
+    100096: Mini 48
+    100098: Mini 5
+    100100: Mini 5_MeshPart0
+    100102: Mini 5_MeshPart1
+    100104: Mini 6
+    100106: Mini 7
+    100108: Mini 8
+    100110: Mini 9
+    100112: Mini Copy
+    100114: //RootNode
+    100116: Plane
+    400000: BackLight
+    400002: Camera_Perspective52
+    400004: FillLight
+    400006: KeyLight
+    400008: LightPreset
+    400010: Mini
+    400012: Mini 1
+    400014: Mini 10
+    400016: Mini 11
+    400018: Mini 12
+    400020: Mini 13
+    400022: Mini 14
+    400024: Mini 15
+    400026: Mini 16
+    400028: Mini 17
+    400030: Mini 18
+    400032: Mini 19
+    400034: Mini 2
+    400036: Mini 20
+    400038: Mini 21
+    400040: Mini 22
+    400042: Mini 23
+    400044: Mini 24
+    400046: Mini 25
+    400048: Mini 26
+    400050: Mini 27
+    400052: Mini 28
+    400054: Mini 29
+    400056: Mini 3
+    400058: Mini 30
+    400060: Mini 31
+    400062: Mini 32
+    400064: Mini 33
+    400066: Mini 34
+    400068: Mini 35
+    400070: Mini 36
+    400072: Mini 37
+    400074: Mini 38
+    400076: Mini 39
+    400078: Mini 4
+    400080: Mini 40
+    400082: Mini 41
+    400084: Mini 42
+    400086: Mini 43
+    400088: Mini 44
+    400090: Mini 45
+    400092: Mini 46
+    400094: Mini 47
+    400096: Mini 48
+    400098: Mini 5
+    400100: Mini 5_MeshPart0
+    400102: Mini 5_MeshPart1
+    400104: Mini 6
+    400106: Mini 7
+    400108: Mini 8
+    400110: Mini 9
+    400112: Mini Copy
+    400114: //RootNode
+    400116: Plane
+    2300000: Mini
+    2300002: Mini 1
+    2300004: Mini 10
+    2300006: Mini 11
+    2300008: Mini 12
+    2300010: Mini 13
+    2300012: Mini 14
+    2300014: Mini 15
+    2300016: Mini 16
+    2300018: Mini 17
+    2300020: Mini 18
+    2300022: Mini 19
+    2300024: Mini 2
+    2300026: Mini 20
+    2300028: Mini 21
+    2300030: Mini 22
+    2300032: Mini 23
+    2300034: Mini 24
+    2300036: Mini 25
+    2300038: Mini 26
+    2300040: Mini 27
+    2300042: Mini 28
+    2300044: Mini 29
+    2300046: Mini 3
+    2300048: Mini 30
+    2300050: Mini 31
+    2300052: Mini 32
+    2300054: Mini 33
+    2300056: Mini 34
+    2300058: Mini 35
+    2300060: Mini 36
+    2300062: Mini 37
+    2300064: Mini 38
+    2300066: Mini 39
+    2300068: Mini 4
+    2300070: Mini 40
+    2300072: Mini 41
+    2300074: Mini 42
+    2300076: Mini 43
+    2300078: Mini 44
+    2300080: Mini 45
+    2300082: Mini 46
+    2300084: Mini 47
+    2300086: Mini 48
+    2300088: Mini 5_MeshPart0
+    2300090: Mini 5_MeshPart1
+    2300092: Mini 6
+    2300094: Mini 7
+    2300096: Mini 8
+    2300098: Mini 9
+    2300100: Mini Copy
+    2300102: Plane
+    3300000: Mini
+    3300002: Mini 1
+    3300004: Mini 10
+    3300006: Mini 11
+    3300008: Mini 12
+    3300010: Mini 13
+    3300012: Mini 14
+    3300014: Mini 15
+    3300016: Mini 16
+    3300018: Mini 17
+    3300020: Mini 18
+    3300022: Mini 19
+    3300024: Mini 2
+    3300026: Mini 20
+    3300028: Mini 21
+    3300030: Mini 22
+    3300032: Mini 23
+    3300034: Mini 24
+    3300036: Mini 25
+    3300038: Mini 26
+    3300040: Mini 27
+    3300042: Mini 28
+    3300044: Mini 29
+    3300046: Mini 3
+    3300048: Mini 30
+    3300050: Mini 31
+    3300052: Mini 32
+    3300054: Mini 33
+    3300056: Mini 34
+    3300058: Mini 35
+    3300060: Mini 36
+    3300062: Mini 37
+    3300064: Mini 38
+    3300066: Mini 39
+    3300068: Mini 4
+    3300070: Mini 40
+    3300072: Mini 41
+    3300074: Mini 42
+    3300076: Mini 43
+    3300078: Mini 44
+    3300080: Mini 45
+    3300082: Mini 46
+    3300084: Mini 47
+    3300086: Mini 48
+    3300088: Mini 5_MeshPart0
+    3300090: Mini 5_MeshPart1
+    3300092: Mini 6
+    3300094: Mini 7
+    3300096: Mini 8
+    3300098: Mini 9
+    3300100: Mini Copy
+    3300102: Plane
+    4300000: Mini
+    4300002: Mini
+    4300004: Mini
+    4300006: Mini
+    4300008: Mini
+    4300010: Mini
+    4300012: Mini
+    4300014: Mini
+    4300016: Mini Copy
+    4300018: Mini_MeshPart0
+    4300020: Mini_MeshPart1
+    4300022: Mini
+    4300024: Mini
+    4300026: Mini
+    4300028: Mini
+    4300030: Mini
+    4300032: Mini
+    4300034: Mini
+    4300036: Mini
+    4300038: Mini
+    4300040: Mini
+    4300042: Mini
+    4300044: Mini
+    4300046: Mini
+    4300048: Mini
+    4300050: Mini
+    4300052: Mini
+    4300054: Mini
+    4300056: Mini
+    4300058: Mini
+    4300060: Mini
+    4300062: Plane
+    4300064: Mini
+    4300066: Mini
+    4300068: Mini
+    4300070: Mini
+    4300072: Mini
+    4300074: Mini
+    4300076: Mini
+    4300078: Mini
+    4300080: Mini
+    4300082: Mini
+    4300084: Mini
+    4300086: Mini
+    4300088: Mini
+    4300090: Mini
+    4300092: Mini
+    4300094: Mini
+    4300096: Mini
+    4300098: Mini
+    4300100: Mini
+    4300102: Mini
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
