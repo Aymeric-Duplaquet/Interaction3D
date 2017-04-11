@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BaliseColor : MonoBehaviour {
 
 	private int ratio=10;
     Material mat;
     public float validateTime;
-    public int actionID;
     private float actualValidateTime;
 
-	// Use this for initialization
-	void Start () {
+    public UnityEvent action = new UnityEvent();
+
+    // Use this for initialization
+    void Start () {
         mat = GetComponent<Renderer>().material;
 	}
 	
@@ -33,19 +35,19 @@ public class BaliseColor : MonoBehaviour {
 
     void UpdateColor()
     {
-		float green = (actualValidateTime / validateTime * ratio);
+		float green = (actualValidateTime / validateTime);
         float red = 1 - green;
 
         GetComponent<Renderer>().material.color = new Color(red, green, 0);
 
         if (actualValidateTime >= validateTime)
         {
+
+            action.Invoke();
             gameObject.SetActive(false);
-            ValidatedAction temp = gameObject.GetComponent<ValidatedAction>();
-            if(temp != null)
-            {
-                temp.Validated(actionID);
-            }
+
+            
+           
         }
     }
 }
